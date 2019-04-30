@@ -3,7 +3,7 @@ export class Quote {
   
   public showDetails: boolean;
   public myDate:Date
-  
+
 constructor(
   public quote:string, 
   public author:string,
