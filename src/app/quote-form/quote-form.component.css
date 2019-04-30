@@ -1,0 +1,25 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.input-form{
+    position: relative;
+    margin: 5px solid red;
+    border: 2px;
+}
+body{
+    overflow-x: hidden;
+}
+button {
+    width: 65%;
+    border: none;
+    background: darkslategray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 27px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12),
+      0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  }

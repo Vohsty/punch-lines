@@ -1,0 +1,46 @@
+<!-- <div class="title">
+  <div class="title-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <app-quote-form (emitQuote)="addQuote($event)"></app-quote-form>
+        </div>
+
+        <div class="col-4">
+          <div class="output">
+            <div class="details" *ngFor="let quote of quotes; let i=index">
+
+              <p>
+                {{quote.quote}}
+              </p>
+              <p>
+                Author:{{quote.author}}
+              </p>
+              
+
+              <br>
+              <button class="btn btn-primary btnspace" (click)='toggleDetails(i)' type="button" name="button" style="margin-left:1.9em">More
+                Details
+              </button>
+              <br>
+
+              <app-quotes-details *ngIf="quote.showDetails" [quote]='quote' (isDelete)='delQuote($event, i)'(isPlus)='plusVote($event, i)'
+                (isMinus)='minusVote($event, i)'>
+                Publisher:{{quote.name}}
+              </app-quotes-details>
+
+              
+
+              <button class="btn btn-danger" (click)="delQuote(i)" style="margin-left:80px"><i class="fa fa-trash"  ></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div> -->

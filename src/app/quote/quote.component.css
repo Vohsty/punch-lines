@@ -1,0 +1,44 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.title-bar{
+    display: grid;
+    grid-template-columns: 100% auto;
+    background-image: url("https://cdn.wallpapersafari.com/5/49/Pr5RMo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    
+  
+  }
+  .title {
+    color: bisque;
+    width: 100%;
+    background-color: #5DADEC;
+    background:rgba(0,0,0,0.4);
+    height: 700px;
+  }
+  .container{
+    
+    padding: 15px;
+    margin: 15px;
+  }
+  .output{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    
+  }
+  body{
+    padding: 15px;
+    margin: 15px;
+  }
+  .col {
+    padding: 4px;
+    margin: 4px;
+    border: none;
+    color: white;
+    float: left;
+    width:60px;
+    height:50%;
+    
+  }
