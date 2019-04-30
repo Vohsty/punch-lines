@@ -2,12 +2,12 @@
   <div class="title">
     <div class="container">
       <div class="row">
-        <div class="col-4">
+        <div class="col-4 enter">
           <h3 style="font-family: 'Abril Fatface', cursive; color: lemonchiffon">CHEZA NA MANENO </h3>
           <app-quote-form (emitQuote)="addQuote($event)"></app-quote-form>
         </div>
 
-        <div class="col-4">
+        <div class="col-4 enter">
           <div class="output">
             <div class="details" *ngFor="let quote of quotes; let i=index">
               <p>

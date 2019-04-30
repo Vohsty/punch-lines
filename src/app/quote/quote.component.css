@@ -1,8 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 .title-bar{
-    display: grid;
-    grid-template-columns: 100% auto;
+    width: 100%;
     background-image: url("https://cdn.wallpapersafari.com/5/49/Pr5RMo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +20,9 @@
     
     padding: 15px;
     margin: 15px;
+  }
+  .enter{
+    margin-left: 15px;
   }
   .output{
     margin: 10px;
