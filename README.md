@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 This application allows users to view quotes for entertainment. Users can add, delete and view various quotes. They can also upvote and downvote quotes depending ontheir preference.
 
-##Description
+## Description
 The user loads the website and views quotes submitted by other users. There are a number of actions the user can undertake:
 
 - Create a new quote.
@@ -11,11 +11,11 @@ The user loads the website and views quotes submitted by other users. There are 
 - Delete a quote.
 - See the number of upvotes and number of downvotes for each quote.
 
-##Setup/Installation Requirements
+## Setup/Installation Requirements
 
 Go to the deployed site on.
 
-##Technologies Used
+## Technologies Used
 
 This project was developed using angular CLI.
 
@@ -23,7 +23,7 @@ This project was developed using angular CLI.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-##Behaviour driven development/ input and output checking
+## Behaviour driven development/ input and output checking
 
 - The user will load the page and view content(quotes)
 - The user can upvote quotes.
@@ -38,7 +38,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 | User clicks Downvote     | downvote is decremented value by 1 on each click     |
 
 
-##Support and contact details
+## Support and contact details
 
 For any questions, troubleshooting or contributions, find me on:
 
