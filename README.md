@@ -6,10 +6,10 @@ This application allows users to view quotes for entertainment. Users can add, d
 ##Description
 The user loads the website and views quotes submitted by other users. There are a number of actions the user can undertake:
 
--Create a new quote.
--Upvote or downvote a quote.
--Delete a quote.
--See the number of upvotes and number of downvotes for each quote.
+- Create a new quote.
+- Upvote or downvote a quote.
+- Delete a quote.
+- See the number of upvotes and number of downvotes for each quote.
 
 ##Setup/Installation Requirements
 Go to the deployed site on: 
@@ -22,10 +22,10 @@ This project was developed using angular CLI
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ##Behaviour driven development/ input and output checking
--The user will load the page and view content(quotes)
--The user can upvote quotes.
--The user can downvote quotes.
--The user can enter new quotes through a form
+- The user will load the page and view content(quotes)
+- The user can upvote quotes.
+- The user can downvote quotes.
+- The user can enter new quotes through a form
 
 | Input                        | Ouput                                                                                            |
 |--------------------------    |----------------------------------------------------------------------------------------------    |
@@ -37,5 +37,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ##Support and contact details
 For any questions, troubleshooting or contributions, find me on:
 
--Mobile: +254 710998713
--Email: vohsty@gmail.com
+- Mobile: +254 710998713
+- Email: vohsty@gmail.com
