@@ -3,16 +3,24 @@
     <div class="container">
       <div class="row">
         <div class="col-4">
+          <h3 style="font-family: 'Abril Fatface', cursive; color: lemonchiffon">CHEZA NA MANENO </h3>
           <app-quote-form (emitQuote)="addQuote($event)"></app-quote-form>
         </div>
 
         <div class="col-4">
           <div class="output">
             <div class="details" *ngFor="let quote of quotes; let i=index">
-
               <p>
-                {{quote.quote}}
+
               </p>
+              <p></p>
+              <p></p>
+
+              <H4 style="font-family: 'Fjalla One', sans-serif;">
+                  {{quote.quote}}
+              </H4>
+                
+              
               <p>
                 Author:{{quote.author}}
               </p>
