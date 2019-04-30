@@ -1,11 +1,11 @@
 <div class="display-details">
        
      <p> Submited by {{quote.name}} </p>
-     <button class="btn btn-success btnspace" (click)='votePlus(true)' type="button" name="button" >
-     <span class="fa fa-thumbs-up"></span>  : {{quote.upVote}} </button>
+     <button class="btn btn-success btnspace" (click)='like()' type="button" name="button" >
+     <span class="fa fa-thumbs-up"></span>  : {{upvote}} </button>
 
-     <button class="btn btn-danger btnspace" (click)='voteMinus(true)' type="button" name="button" style="margin-left:2.5em">
-     <span class="fa fa-thumbs-down"></span>: {{quote.downVote}}</button>
+     <button class="btn btn-danger btnspace" (click)='hate()' type="button" name="button" style="margin-left:2.5em">
+     <span class="fa fa-thumbs-down"></span>: {{downvote}}</button>
 
      
       

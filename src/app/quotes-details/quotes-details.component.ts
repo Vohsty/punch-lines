@@ -8,6 +8,9 @@ import {Quote } from '../quote'
 })
 export class QuotesDetailsComponent implements OnInit {
 
+  upvote=0
+  downvote=0
+
   quotes = [
     new Quote('There is no end to Good Things','Kimanthi snr',0,0,"Z.G")
     
@@ -29,17 +32,13 @@ export class QuotesDetailsComponent implements OnInit {
     this.quotes.splice(i, 1)
   }
 
-  upVote(isPlus, index){
-    if (isPlus) {
-      this.quotes[index].upVote +=1;
-    }
-  }
-    downVote(isMinus, index){
-      if (isMinus) {
-        this.quotes[index].downVote +=1;
-      }
-  
-  }
+  like(){
+    this.upvote=this.upvote +=1;
+}
+hate(){
+  this.downvote=this.downvote +=1;
+}
+
   
   constructor() { }
 

@@ -10,12 +10,15 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 })
 export class QuoteComponent implements OnInit {
 
-  
+  upvote=0
+  downvote=0
 
   public imagesUrl;
   
   quotes = [
-    new Quote('There is no end to Good Things','Kimanthi snr',0,0,"Z.G")
+    new Quote('There is no end to Good Things','Kimanthi snr',0,0,"Kimanthi.jnr"),
+    new Quote('Remember to send fare','Kenyan Queens',0,0,"Boychild"),
+    
     
 ];
 
@@ -29,21 +32,10 @@ addQuote(newQuote){
 delQuote(i){
   this.quotes.splice(i, 1)
 }
-upVote(isPlus, index){
-  if (isPlus) {
-    this.quotes[index].upVote +=1;
-  }
-}
-  downVote(isMinus, index){
-    if (isMinus) {
-      this.quotes[index].downVote +=1;
-    }
 
-}
 
 title = 'app';
   constructor(config: NgbCarouselConfig) {
-    // customize default values of carousels used by this component tree
     config.interval = 500;
     config.wrap = true;
     config.keyboard = true;
