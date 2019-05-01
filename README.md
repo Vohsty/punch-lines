@@ -13,7 +13,7 @@ The user loads the website and views quotes submitted by other users. There are 
 
 ## Setup/Installation Requirements
 
-Go to the deployed site on.
+Go to the deployed site on 'https://vohsty.github.io/punch-lines/'
 
 ## Technologies Used
 

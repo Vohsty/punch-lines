@@ -21,6 +21,11 @@ export class QuotesDetailsComponent implements OnInit {
   @Output() isDelete = new EventEmitter<boolean>();
  @Output() isPlus = new EventEmitter<boolean>();
  @Output() isMinus = new EventEmitter<boolean>();
+ @Output() isComplete= new EventEmitter<boolean>();
+
+ quoteDelete(complete:boolean){
+   this.isComplete.emit(complete);
+ }
 
   votePlus(plus:boolean) {
     this.isPlus.emit(plus);

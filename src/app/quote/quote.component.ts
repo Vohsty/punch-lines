@@ -29,9 +29,15 @@ toggleDetails(index) {
 addQuote(newQuote){
   this.quotes.push(newQuote)
 }
-delQuote(i){
-  this.quotes.splice(i, 1)
+delQuote(isComplete,index){
+  if (isComplete){
+    let toDelete=confirm(`Are you sure you want to delete ${this.quotes[index].quote}`)
+    if(toDelete){
+  this.quotes.splice(index, 1)
+      }
+    }
 }
+
 
 
 title = 'app';
